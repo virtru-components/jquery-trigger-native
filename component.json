@@ -1,0 +1,8 @@
+{
+  "name": "jquery-trigger-native",
+  "version": "0.0.1",
+  "main": "./lib/jquery-trigger-native.js",
+  "dependencies": {
+    "jquery": "*"
+  }
+}
