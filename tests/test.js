@@ -21,4 +21,18 @@ describe('jQuery.fn.triggerNative', function() {
     });
     testerJQEl.triggerNative('click');
   });
+
+  it('performs a ui event', function(done) {
+    window.addEventListener('resize', function() {
+      done();
+    });
+    $(window).triggerNative('resize');
+  });
+
+  it('performs an arbitrary event', function(done) {
+    testerRawEl.addEventListener('arbitrary-event', function() {
+      done();
+    });
+    testerJQEl.triggerNative('arbitrary-event');
+  });
 });
