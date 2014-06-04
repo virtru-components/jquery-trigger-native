@@ -2,10 +2,10 @@
   "name": "jquery-trigger-native",
   "repo": "virtru/jquery-trigger-native",
   "description": "jquery plugin to trigger native events",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/jquery-trigger-native.js",
   "dependencies": {
-    "components/jquery": "1.9.1"
+    "components/jquery": "2.1.0"
   },
   "development": {
     "virtru-components/chai": "*"
