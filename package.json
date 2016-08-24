@@ -1,0 +1,9 @@
+{
+  "name": "jquery-trigger-native",
+  "description": "jquery plugin to trigger native events",
+  "version": "0.2.0",
+  "main": "lib/jquery-trigger-native.js",
+  "dependencies": {
+    "jquery": "2.1.0"
+  }
+}
